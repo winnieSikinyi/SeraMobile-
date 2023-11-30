@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.SelectALevelActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="1303dp"
+        android:layout_height="1324dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.452"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/gamified" />
+
+    <ImageView
+        android:id="@+id/imglevel1"
+        android:layout_width="120dp"
+        android:layout_height="113dp"
+        android:layout_marginBottom="60dp"
+        android:rotation="-5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.301"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/vate" />
+
+    <ImageView
+        android:id="@+id/imgstarl1"
+        android:layout_width="120dp"
+        android:layout_height="117dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="44dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imglevel1"
+        app:srcCompat="@drawable/stars" />
+
+    <ImageView
+        android:id="@+id/tolife"
+        android:layout_width="134dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginBottom="280dp"
+        android:rotation="-1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/tolife" />
+
+    <ImageView
+        android:id="@+id/imgstarl2"
+        android:layout_width="88dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="300dp"
+        android:rotation="-20"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tolife"
+        app:srcCompat="@drawable/star" />
+
+    <ImageView
+        android:id="@+id/imgfreel3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="232dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.536"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/freedom" />
+
+    <ImageView
+        android:id="@+id/iconlockl3"
+        android:layout_width="78dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="232dp"
+        app:layout_constraintBottom_toTopOf="@+id/imgstarl2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:drawable/ic_lock_idle_lock" />
+
+    <ImageView
+        android:id="@+id/imgmovel4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.221"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fmove" />
+
+    <ImageView
+        android:id="@+id/imglock4"
+        android:layout_width="55dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="232dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_lock_idle_lock" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+    <!--    <Button-->
+    <!--        android:id="@+id/btnPlay2"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="@string/play_level_2"-->
+
+

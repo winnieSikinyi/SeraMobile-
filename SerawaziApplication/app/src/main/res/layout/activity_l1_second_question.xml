@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    tools:context=".L1SecondQuestion">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgbuble"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.987"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/bubble" />
+
+
+        <ImageView
+            android:id="@+id/imgtalkdots"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="216dp"
+            android:layout_marginEnd="192dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/talk" />
+
+        <TextView
+            android:id="@+id/tvscene1"
+            android:layout_width="191dp"
+            android:layout_height="152dp"
+            android:layout_marginEnd="24dp"
+            android:text="You are from work and you find your house has been broken into. Some of the things are missing and there is nobody around to ask"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.093" />
+
+        <ImageView
+            android:id="@+id/admin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="196dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.183"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/avatartwo" />
+
+        <ImageView
+            android:id="@+id/imgqn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="56dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgbuble"
+            app:srcCompat="@drawable/questiontag" />
+
+
+        <ImageView
+            android:id="@+id/imguser1"
+            android:layout_width="237dp"
+            android:layout_height="153dp"
+            android:layout_marginStart="84dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/admin"
+            app:srcCompat="@drawable/newcharacterwoman" />
+
+        <Button
+            android:id="@+id/btncorrectt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+
+            android:backgroundTint="#FF9800"
+            android:text="Stay Calm, Ask them to clarify why
+they're requesting the search,
+consider documenting the
+ interaction."
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imguser1" />
+
+        <Button
+            android:id="@+id/btnanswer4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#FF9800"
+            android:text="React Aggressively, Resist the search  Physically, or Quickly give consent out of fear,"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btncorrectt" />
+
+        <ImageView
+            android:id="@+id/ivBubble1"
+            android:layout_width="146dp"
+            android:layout_height="157dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/tagone" />
+
+        <ImageView
+            android:id="@+id/ivchat1"
+            android:layout_width="64dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="44dp"
+            android:layout_marginEnd="32dp"
+            android:rotation="-30"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgqn1"
+            app:srcCompat="@drawable/chatbot" />
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bnvHome"
+            android:layout_width="411dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="90dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnanswer4"
+            app:layout_constraintVertical_bias="1.0"
+            app:menu="@menu/bottom_menu_nav" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+
+
+    <!--    @string/stay_calm_ask_them_to_clarify_why_they_re_requesting_the_search_consider_documenting_the_interaction-->
+    <!--    @string/react_aggressively_resist_the_search_physically_or_quickly_give_consent_out_of_fear-->

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    tools:context=".ui.LevelTwoActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="wrap_content"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:background="@drawable/slanted_background"
+        android:rotation="30"
+        app:cardBackgroundColor="#9C27B0"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <TextView
+
+            android:id="@+id/wl2"
+            android:layout_width="102dp"
+            android:layout_height="121dp"
+            android:padding="16dp"
+            android:rotation="-30"
+            android:text="@string/l2_bill_of_rights"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <ImageView
+        android:id="@+id/ivScenario3"
+        android:layout_width="309dp"
+        android:layout_height="279dp"
+        android:src="@drawable/vectorim"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.951"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.106" />
+
+    <ImageView
+        android:id="@+id/ivGirl3"
+        android:layout_width="111dp"
+        android:layout_height="123dp"
+        android:layout_marginTop="284dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/avatartwo" />
+
+
+    <ImageView
+        android:id="@+id/ivGamer3"
+        android:layout_width="141dp"
+        android:layout_height="148dp"
+        android:layout_marginTop="344dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/newcharacterwoman" />
+
+    <ImageView
+        android:id="@+id/ivchat1"
+        android:layout_width="64dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
+        android:rotation="-30"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivGirl3"
+        app:srcCompat="@drawable/chatbot" />
+
+    <Button
+        android:id="@+id/btnCorrect3"
+        android:layout_width="351dp"
+        android:layout_height="91dp"
+        android:backgroundTint="#9C27B0"
+        android:shadowColor="@color/cardview_dark_background"
+        android:text="@string/the_university_s_denial_of_her_permit_would_potentially_be_in_conflict_with_her_constitutional_rights_to_peacebly_demonstrate_to_bring_forward_a_petition"
+        android:textColorHighlight="#9C27B0"
+        android:textColorLink="#9C27B0"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.945"
+        app:rippleColor="#9C27B0" />
+
+    <Button
+        android:id="@+id/btnWrong3"
+        android:layout_width="344dp"
+        android:layout_height="97dp"
+        android:backgroundTint="#9C27B0"
+        android:text="@string/the_university_is_right_to_restrict_her_given_that_she_is_a_student_of_the_institution_and_must_do_what_the_university_dictates"
+        android:textColorHighlight="#9C27B0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.477"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.779" />
+
+    <TextView
+        android:id="@+id/tvque3"
+        android:layout_width="232dp"
+        android:layout_height="161dp"
+        android:text="@string/sarah_a_college_student_wants_to_organize_a_peaceful_protest_on_her_campus_to_raise_awareness_about_political_and_social_issues_however_when_she_applies_for_a_permit_to_hold_the_protest_the_university_denies_her_request_citing_concerns_about_potential_disruptions_what_in_the_bill_of_rights_is_relevant_to_her_situation"
+        android:textAlignment="center"
+        android:textSize="13.5sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.808"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.142" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="115dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.655"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvque3"
+        app:srcCompat="@drawable/vecim" />
+
+    <TextView
+        android:id="@+id/tvWhatDoYouThink"
+        android:layout_width="55dp"
+        android:layout_height="53dp"
+        android:text="\u003F\u003F"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.603"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.439" />
+
+    <!--    <com.google.android.material.bottomnavigation.BottomNavigationView-->
+<!--        android:id="@+id/bnvHome"-->
+<!--        android:layout_width="411dp"-->
+<!--        android:layout_height="65dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:menu="@menu/bottom_menu_nav" />-->
+
+<!--    <androidx.fragment.app.FragmentContainerView-->
+<!--        android:id="@+id/fcvHome"-->
+<!--        android:name="com.greenrevive.serawaziapplication.ui.HomeFragment"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/bnvHome"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        tools:layout="@layout/fragment_home" />-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

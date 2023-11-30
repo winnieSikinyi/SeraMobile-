@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chosencharacter">
+
+    <ImageView
+        android:id="@+id/ivbgg"
+        android:layout_width="753dp"
+        android:layout_height="935dp"
+        android:layout_marginStart="-200dp"
+        android:layout_marginTop="-20dp"
+        android:layout_marginEnd="-200dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bgg" />
+
+    <Button
+        android:id="@+id/btncharacter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#40B93C"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:text="Choose a Character"
+        android:textSize="24dp"
+        app:cornerRadius="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="342dp"
+        android:layout_height="365dp"
+        android:layout_marginTop="104dp"
+        app:cardCornerRadius="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btncharacter">
+
+        <ImageView
+            android:id="@+id/ivavatarfive"
+            android:layout_width="126dp"
+            android:layout_height="115dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/avatarfive" />
+
+        <ImageView
+            android:id="@+id/ivavatarsix"
+            android:layout_width="wrap_content"
+            android:layout_height="117dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/avatartwo" />
+
+        <ImageView
+            android:id="@+id/ivavatarseven"
+            android:layout_width="108dp"
+            android:layout_height="112dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="185dp"
+            app:srcCompat="@drawable/avatarthree" />
+
+        <ImageView
+            android:id="@+id/ivavatareight"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="190dp"
+            app:srcCompat="@drawable/avatarfour" />
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/ivmusicc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btncharacter"
+        app:srcCompat="@drawable/music" />
+
+    <Button
+        android:id="@+id/btnproceed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#40B93C"
+        android:text="Proceed!"
+        android:textColor="#FDFAFA"
+        android:shadowColor = "#000"
+        android:shadowDx = "-2"
+        android:shadowDy = "-2"
+        android:shadowRadius = "3"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
+    <ImageView
+        android:id="@+id/ivback"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_arrow_back_ios_24" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

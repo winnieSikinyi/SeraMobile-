@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">SerawaziApplication</string>
+
+
+    <string name="person">person</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="stay_calm_ask_them_to_clarify_why_they_re_requesting_the_search_consider_documenting_the_interaction">Stay Calm, Ask them to clarify why they\'re requesting the search, consider documenting the interaction.</string>
+    <string name="react_aggressively_resist_the_search_physically_or_quickly_give_consent_out_of_fear">React Aggressively, Resist the search Physically, or Quickly give consent out of fear,</string>
+    <string name="settings">settings</string>
+
+
+    <string name="enter_your_full_name">Enter Your full name</string>
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="create_your_password">Create YOur Password</string>
+    <string name="confirm_your_password">Confirm Your Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_have_an_account_log_in">Already have an account? Log In</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="space" />
+    <string name="play_level_3">Play Level 3</string>
+    <string name="level_2_done">Level 2 Done!</string>
+    <string name="crown_royale">Crown Royale!!</string>
+    <string name="l2_bill_of_rights">L2 Bill Of Rights</string>
+    <string name="what_might_it_be">What might it be?</string>
+    <string name="_50_coins">50 Coins</string>
+    <string name="user_profile">User Profile</string>
+    <string name="dragon_breath">Dragon Breath</string>
+    <string name="sarah_a_college_student_wants_to_organize_a_peaceful_protest_on_her_campus_to_raise_awareness_about_political_and_social_issues_however_when_she_applies_for_a_permit_to_hold_the_protest_the_university_denies_her_request_citing_concerns_about_potential_disruptions_what_in_the_bill_of_rights_is_relevant_to_her_situation">Sarah, a college student wants to organize a peaceful protest on her campus to raise awareness about political and social issues. However, when she applies for a permit to hold the protest, the university denies her request, citing concerns about potential disruptions. What in the bill of rights is relevant to her situation?</string>
+    <string name="the_university_s_denial_of_her_permit_would_potentially_be_in_conflict_with_her_constitutional_rights_to_peacebly_demonstrate_to_bring_forward_a_petition">The university\'s denial of her permit would potentially be in conflict with her constitutional rights to peacebly demonstrate to bring forward a petition.</string>
+    <string name="the_university_is_right_to_restrict_her_given_that_she_is_a_student_of_the_institution_and_must_do_what_the_university_dictates">The university is right to restrict her given that she is a student of the institution and must do what the university dictates</string>
+    <string name="enter_name" />
+    <string name="enter_phone_number" />
+    <string name="enter_email_adress" />
+    <string name="enter_a_password" />
+    <string name="enter_user_name">Enter User Name</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? Sign up</string>
+    <string name="level_3">Level 3</string>
+    <string name="play">Play</string>
+    <string name="play_level_2">Play Level 2</string>
+    <string name="look_at_you_on_a_winning_spree_here_s_your_law_guru_trophy">Look at you on a winning spree Here\'s your law Guru Trophy</string>
+    <string name="levels">Levels</string>
+    <string name="level_selection_fragment">Level Selection Fragment</string>
+    <string name="prompt_question">Prompt Question</string>
+
+</resources>

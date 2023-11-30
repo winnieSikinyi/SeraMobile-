@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/gray"
+    android:layout_height="match_parent"
+    tools:context=".tutorials">
+
+    <ImageView
+        android:id="@+id/ivsucceed"
+        android:layout_width="214dp"
+        android:layout_height="229dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:rotation="-20"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivwelcome"
+        app:srcCompat="@drawable/succeed" />
+
+    <ImageView
+        android:id="@+id/ivsera"
+        android:layout_width="153dp"
+        android:layout_height="124dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivcharactertwo"
+        app:srcCompat="@drawable/sera" />
+
+    <ImageView
+        android:id="@+id/ivchatbot"
+        android:layout_width="118dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivsucceed"
+        app:srcCompat="@drawable/chatbot" />
+
+    <ImageView
+        android:id="@+id/ivcharacter"
+        android:layout_width="129dp"
+        android:layout_height="131dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="148dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/character" />
+
+    <ImageView
+        android:id="@+id/ivwelcome"
+        android:layout_width="245dp"
+        android:layout_height="196dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/welcome" />
+
+    <ImageView
+        android:id="@+id/ivcharactertwo"
+        android:layout_width="152dp"
+        android:layout_height="162dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivwelcome"
+        app:srcCompat="@drawable/rightlyhappy" />
+
+    <Button
+        android:id="@+id/btnskip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="36dp"
+        android:backgroundTint="#F6F0F0"
+        android:paddingLeft="50dp"
+        android:paddingTop="10dp"
+        android:paddingRight="50dp"
+        android:paddingBottom="10dp"
+        android:shadowColor="#935A5A"
+        android:shadowRadius="13"
+        android:text="Skip Tour"
+        android:textColor="#0C0C0C"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:strokeColor="#40B93C"
+        app:strokeWidth="2dp" />
+
+    <TextView
+        android:id="@+id/tvintro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="WELCOME TO SERAWAZI"
+        android:textColor="#008000"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

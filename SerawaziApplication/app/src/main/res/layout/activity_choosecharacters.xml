@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".choosecharacters">
+
+    <ImageView
+        android:id="@+id/ivbg"
+        android:layout_width="750dp"
+        android:layout_height="1078dp"
+        android:layout_marginStart="-200dp"
+        android:layout_marginTop="-20dp"
+        android:layout_marginEnd="-200dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bgg" />
+
+    <Button
+        android:id="@+id/btncharacters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="#40B93C"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:text="Choose a Character"
+        android:textSize="24sp"
+        app:cornerRadius="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivmusic"
+        android:layout_width="93dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btncharacters"
+        app:srcCompat="@drawable/music" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="375dp"
+        android:layout_height="382dp"
+        android:layout_marginTop="108dp"
+        app:cardCornerRadius="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btncharacters">
+
+        <ImageView
+            android:id="@+id/ivavatarone"
+            android:layout_width="116dp"
+            android:layout_height="143dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/newcharacterwoman" />
+
+        <ImageView
+            android:id="@+id/ivavatartwo"
+            android:layout_width="140dp"
+            android:layout_height="143dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp"
+            app:srcCompat="@drawable/yellowman" />
+
+        <ImageView
+            android:id="@+id/ivavatarthree"
+            android:layout_width="124dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="200dp"
+            app:srcCompat="@drawable/secondnewwoman" />
+
+        <ImageView
+            android:id="@+id/ivavatarfour"
+            android:layout_width="144dp"
+            android:layout_height="154dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="200dp"
+            app:srcCompat="@drawable/secondnewman" />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btnproceed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="23dp"
+        android:backgroundTint="#F6F0F0"
+        android:paddingLeft="50dp"
+        android:paddingTop="15dp"
+        android:paddingRight="50dp"
+        android:paddingBottom="15dp"
+        android:shadowRadius="13"
+        android:text="Proceed!"
+        android:textColor="#40B93C"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:strokeColor="#40B93C"
+        app:strokeWidth="2dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

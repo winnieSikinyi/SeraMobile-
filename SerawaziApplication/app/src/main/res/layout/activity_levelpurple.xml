@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    tools:context=".Levelpurple">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/imgbuble"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.9"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/bubble" />
+
+        <ImageView
+            android:id="@+id/imgtalkdots"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="216dp"
+            android:layout_marginEnd="192dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/talk" />
+
+        <TextView
+            android:id="@+id/tvscene1"
+            android:layout_width="191dp"
+            android:layout_height="152dp"
+            android:layout_marginEnd="24dp"
+            android:text="You are a driver who has been pulled over for a minor traffic violation How do you respond when the officer requests consent to search your vehicle you are concerned about your privacy and potential legal implications"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.123" />
+
+        <ImageView
+            android:id="@+id/admin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="196dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.136"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/avatartwo" />
+
+
+        <ImageView
+            android:id="@+id/imgqn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="88dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgbuble"
+            app:srcCompat="@drawable/questiontag" />
+
+        <ImageView
+            android:id="@+id/imguser1"
+            android:layout_width="185dp"
+            android:layout_height="145dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/admin"
+            app:srcCompat="@drawable/newcharacterwoman" />
+
+        <Button
+            android:id="@+id/btncorrecttt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:backgroundTint="#FF9800"
+            android:text="Stay Calm, Ask them to clarify why
+they're requesting the search,
+consider documenting the
+ interaction."
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnanswer4" />
+
+        <Button
+            android:id="@+id/btnanswer4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:backgroundTint="#FF9800"
+            android:text="React Aggressively, Resist the search  Physically, or Quickly give consent out of fear,"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imguser1" />
+
+        <ImageView
+        android:id="@+id/ivBubble1"
+        android:layout_width="146dp"
+        android:layout_height="157dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tagone" />
+
+        <ImageView
+            android:id="@+id/ivchat1"
+            android:layout_width="64dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="52dp"
+            android:rotation="-30"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgqn1"
+            app:srcCompat="@drawable/chatbot" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+
+
+<!--    @string/stay_calm_ask_them_to_clarify_why_they_re_requesting_the_search_consider_documenting_the_interaction-->
+<!--    @string/react_aggressively_resist_the_search_physically_or_quickly_give_consent_out_of_fear-->
